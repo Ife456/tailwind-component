@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+body {
+    background-color: rgb(243, 238, 227);
+}
+
+.one {
+    width: 80%;
+    height: auto;
+    background-color: white;
+    border: 1.5px solid rgb(180, 178, 178);
+    border-radius: 0.6rem;
+    margin: 4rem auto;
+    padding: 2rem 3rem;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e7e7e7;
+    padding-top: 2rem;
+    padding-bottom: 1.4rem;
+}
+
+.left-container {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    justify-content: center;
+}
+
+.list-title {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap:0.7rem ;
+}
+
+.title-container {
+    width: fit-content;
+    height: auto;
+}
+
+.title-container h1 {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: rgb(46, 46, 46);
+    letter-spacing: 0.25px;
+}
+
+.second-title-container {
+    width: fit-content;
+    height: auto;
+    padding: 0.2rem 0.4rem;
+    background-color: #e3f5da;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #7ca782;
+    font-weight: 600;
+}
+
+.second-title-container p {
+color: #4e8156;
+font-size: 0.8rem;
+}
+
+.bottom-left {
+    width: fit-content;
+    height: auto;
+}
+
+.bottom-text {
+    width: fit-content;
+    height: auto;
+}
+
+.bottom-text p {
+    font-size: 0.9rem;
+    color:rgb(124, 124, 124);
+}
+
+.right-container {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+.right-button button {
+background-color: white;
+border-radius: 0.4rem;
+padding: 0.4rem 0.7rem;
+border: 0.2px solid rgb(204, 204, 204);
+font-weight: 700;
+font-size: 0.95rem;
+color: rgb(73, 68, 68);
+}
+
+.icon {
+    width: fit-content;
+    height: auto;
+}
+
+.icon img {
+    width: 1.5rem;
+    height: 1.5rem;
+    opacity: 0.7;
+}
+
+.progress {
+    background-color: rgb(238, 237, 237);
+    border-color: rgb(146, 146, 146);
+}
+
+.progress p {
+color: rgb(102, 101, 101);
+}
+
+.archive{
+    background-color:rgb(253, 244, 236);
+    border-color: rgb(255, 226, 188);
+}
+
+.archive p {
+    color: rgb(131, 105, 71) ;
+}
+
+.line {
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .one {
+        width: 95%;
+        height: auto;
+        background-color: white;
+        border: 1.5px solid rgb(180, 178, 178);
+        border-radius: 0.6rem;
+        margin: 4rem auto;
+        padding: 1rem 3rem;
+    }
+    .right-button {
+        display: none;
+    }
+}
